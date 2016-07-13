@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:coupon="http://schemas.android.com/apk/res/com.example.androidcustomcoupon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+     <com.example.androidcustomcoupon.widget.CustomCouponView   
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#54afaf"
+        android:gravity="center_vertical"
+        coupon:horizontal_style="circle"
+        coupon:vertical_style="triangle">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="优惠券1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FC4A36"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:text="全场五折优惠"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="券编号：9527"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="有效期：2000-00-00至3000-00-00"/>
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center"/>
+        
+    </com.example.androidcustomcoupon.widget.CustomCouponView>
+    
+     <com.example.androidcustomcoupon.widget.CustomCouponView   
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="#47FDFD"
+        android:gravity="center_vertical"
+        coupon:horizontal_style="circle"
+        coupon:vertical_style="triangle">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="优惠券2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FC4A36"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:text="全场五折优惠"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="券编号：9526"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:textSize="15sp"
+                android:text="有效期：2000-00-00至3000-00-00"/>
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center"/>
+        
+    </com.example.androidcustomcoupon.widget.CustomCouponView>
+    
+</LinearLayout>
